@@ -1,4 +1,4 @@
-//https://youtu.be/Cs5XNxElZNE
+// https://youtu.be/lApNm9gEluk
 
 PImage miImagen;
 int CantidadCelda=50;
@@ -17,8 +17,8 @@ void setup(){
   size(800,400);
   background(200);
   miImagen = loadImage("MIIMAGEN.jpg");
-  color1= color(255);
- color2= color(0);
+  color1= color(255); //blanco
+ color2= color(0); //negro
 }
  
  void draw(){
@@ -41,7 +41,7 @@ grilla2();
       color2 = color(random(255), random(255), random(255));
     }
 
-  
+   
    
   
 
