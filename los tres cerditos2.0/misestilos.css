@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+body {
+    background-color: pink;}
+ 
+
+    h1 {color: red;
+        font-family: "Bangers", system-ui;
+
+    }
+
+    .collapsible>label  {color: red;
+        font-family: "Bangers", system-ui;
+
+    }
