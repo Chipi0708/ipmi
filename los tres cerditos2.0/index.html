@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://unpkg.com/papercss@1.9.2/dist/paper.min.css" />
+    <link rel="stylesheet" href="misestilos.css">
+    <title>Probando Paper CSS</title>
+</head>
+<!--CODIGO DE MENU DE NAVEGACIÓN-->
+
+<body>
+    <nav class="border fixed split-nav">
+        <div class="nav-brand">
+            <h3><a href="#">Aventura gráfica</a></h3>
+        </div>
+        <div class="collapsible">
+            <input id="collapsible1" type="checkbox" name="collapsible1">
+            <label for="collapsible1">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </label>
+        </div>
+    </nav>
+    <div class="paper container">
+        <div class="row">
+            <!--CODIGO DE ARTÍCULO-->
+            <div class="md-8 sm-12 col">
+                <article class="article">
+                    <h1 class="article-title">Los tres cerditos</h1>
+                    <p class="text-lead"> Tres cerditos construían sus casas para protegerse del Lobo Feroz. Un día
+                        apareció el Lobo y derribó las dos primeras casas, que eran de paja y la otra de madera. Al no
+                        poder derribar la otra casa de ladrillo, el Lobo subió a la chimenea, y desplazándose hacia
+                        abajo, cuando llegó se quemó con la olla que estaba calentándose y se fue lejos, mientras que
+                        los cerditos lo celebraban.
+                    </p>
+                    <p>Si bien la historia es de origen popular y se ha transmitido a través del tiempo, por lo que
+                        existen múltiples versiones, la versión de Jacobs destaca por incluir detalles como el caldero
+                        de agua hirviendo, que son parte de la versión más conocida actualmente. Incluso Walt Disney se
+                        inspiro en esta versión de la fábula y creo el cortometraje "Los tres cerditos" en 1933 donde
+                        ganó un Óscar.
+                    </p>
+
+
+                </article>
+            </div>
+            <!--CODIGO DE MENU DE COLLAPSIBLE (INTEGRANTES)-->
+            <div class="md-4 sm-12 col">
+                <h3>Integrantes</h3>
+                <div>
+                    <div class="collapsible">
+                        <input id="collapsible3" type="checkbox" name="collapsible">
+                        <label for="collapsible3">Zoe Di Lorenzo</label>
+                        <div class="collapsible-body">
+                            <span>Estudiante de Diseño Multimedial en la Facultad de Artes de la UNLP.
+                                Legajo: 122672/4</span>
+                        </div>
+                    </div>
+                    <div class="collapsible">
+                        <input id="collapsible4" type="checkbox" name="collapsible">
+                        <label for="collapsible4">Joaquin Nehuen Galipo</label>
+                        <div class="collapsible-body">
+                            <span>Estudiante de Diseño Multimedial en la Facultad de Artes de la UNLP.
+                                Legajo: 119035/4
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!--CODIGO DE MODAL 1 (TARJETA POP UP)-->
+                <input class="modal-state" id="modal-1" type="checkbox">
+                <div class="modal">
+                    <label class="modal-bg" for="modal-1"></label>
+                    <div class="modal-body">
+                        <label class="btn-close" for="modal-1">X</label>
+                        <h4 class="modal-title">Diagrama completo</h4>
+                        <img src="imagenes/Diagrama Zoe y Joaco.jpg" alt="diagrama" class="no-border">
+                        <p class="modal-text">En total, hay 15 pantallas y 3 finales. Dos finales malos y uno bueno que
+                            finaliza todo el juego</p>
+                        <label for="modal-1">Comisión 5</label>
+                    </div>
+                </div>
+                <!--CODIGO DE MODAL 2 (JUEGO)-->
+                <input class="modal-state" id="modal-2" type="checkbox">
+                <div class="modal">
+                    <label class="modal-bg" for="modal-2"></label>
+                    <div class="modal-body">
+                        <label class="btn-close" for="modal-2">X</label>
+                        <h4 class="modal-title">Aventura Interactiva</h4>
+                        <p class="modal-text">En total, hay 15 pantallas y 3 finales. Dos finales malos y uno bueno que
+                            finaliza todo el juego</p>
+                        <label for="modal-2">Comisión 5</label>
+                         <!--CODIGO INCORPORACION DEL JUEGO-->
+                        <iframe src="p5/index.html" frameborder="0" width="100%" height="490"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+         
+
+        <!--CODIGO DE CARDS-->
+        <h3 class="article-title">Procedimiento</h3>
+        <div class="row">
+            <div class="md-6 sm-12 col">
+                <div class="card">
+                    <img src="imagenes/cerditos.jfif" alt="Card example image">
+
+                    <div class="card-body">
+                        <h4 class="card-title">Parte 1</h4>
+                        <p class="card-text">Para crear esta aventura gráfica interactiva, el primer paso necesario para
+                            organizarnos fue crear un diagrama. De esta manera, podíamos visualizar los diferentes
+                            caminos y acciones que podían elegir el usuario y, por lo tanto, sus diferentes finales.
+                        </p>
+                        <div class="row flex-spaces child-borders">
+                            <label class="paper-btn margin" for="modal-1">Ver diagrama!</label>
+                        </div>
+                        <input class="modal-state" id="modal-1" type="checkbox">
+                    </div>
+                </div>
+            </div>
+            <div class="md-6 sm-12 col">
+                <div class="card">
+                    <img src="imagenes/pantalla10.jpeg" alt="Card example image">
+                    <div class="card-body">
+                        <h4 class="card-title">Parte 2</h4>
+                        <p class="card-text">A partir del diagrama, creamos las imágenes con inteligencia artificial de
+                            todas las pantallas y escenarios. También anotamos en un documento de texto (.txt) la fábula
+                            resumida y como la dividiríamos la información en cada pantalla. ("Texto1.txt",
+                            "Texto2.txt", etc).
+                            Finalmente, nos metimos a Processing y creamos la aventura gráfica a partir del manejo de
+                            estados.</p>
+                            <div class="row flex-spaces child-borders">
+                            <label class="paper-btn margin" for="modal-2">Jugar aventura!</label>
+                        </div>
+                        
+                             <!--CODIGO DE MODAL2-->
+                      
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="md-6 sm-4 col">
+                <img src="imagenes/disney.webp" alt="diagrama" class="no-border">
+            </div>
+            <div class="md-6 sm-8 col">
+                <h5>Pie de página</h5>
+                <p>TP#Final — Sitio web de la AG [Etapa 3]</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

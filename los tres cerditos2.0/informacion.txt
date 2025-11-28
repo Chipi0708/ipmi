@@ -1,0 +1,20 @@
+INFORMACIÓN SOBRE LA TEMÁTICA:
+"Los tres cerditos" de Joseph Jacobs (1890)
+
+"Tres cerditos construían sus casas para protegerse del Lobo Feroz. Un día apareció el Lobo y derribó las dos primeras casas, que eran de paja y la otra de madera. Al no poder derribar la otra casa de ladrillo, el Lobo subió a la chimenea, y desplazándose hacia abajo, cuando llegó se quemó con la olla que estaba calentándose y se fue lejos, mientras que los cerditos lo celebraban."
+
+Si bien la historia es de origen popular y se ha transmitido a través del tiempo, por lo que existen múltiples versiones, la versión de Jacobs destaca por incluir detalles como el caldero de agua hirviendo, que son parte de la versión más conocida actualmente. Incluso Walt Disney se inspiro en esta versión de la fábula y creo el cortometraje "Los tres cerditos" en 1933 donde ganó un Óscar.
+(imagen cortometraje)
+
+ACCESO DIRECTO A LA AVENTURA GRÁFICA
+
+PROCESO DE PRODUCCIÓN:
+Para crear esta aventura gráfica interactiva, el primer paso necesario para organizarnos fue crear un diagrama. De esta manera, podíamos visualizar los diferentes caminos y acciones que podían elegir el usuario y, por lo tanto, sus diferentes finales. 
+(imagen del diagrama)
+A partir del diagrama, creamos las imágenes con inteligencia artificial de todas las pantallas y escenarios. También anotamos en un documento de texto (.txt) la fábula resumida y como  la dividiríamos la información en cada pantalla. ("Texto1.txt", "Texto2.txt", etc). 
+Finalmente, nos metimos a Processing y creamos la aventura gráfica a partir del manejo de estados.
+
+INTEGRANTES DEL GRUPO:
+- Zoe Di Lorenzo
+- Joaquín Nehuen Galipo
+(¿ponemos información personal de nosotros? no creo que sea necesario no? vamos viendo)

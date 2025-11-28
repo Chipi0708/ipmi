@@ -1,0 +1,75 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Chewy&family=Knewave&family=Original+Surfer&display=swap');
+
+body {
+    background-color: #ffc0cb;
+}
+
+
+h1 {
+    color: #ffc0cb;
+    font-family: "Knewave", system-ui;
+}
+
+article .text-lead {
+    color: rgb(0, 0, 0);
+    font-family: "Original Surfer", sans-serif;
+}
+
+article p {
+    color: rgb(102, 102, 102);
+    font-family: "Chewy", system-ui;
+}
+
+h3 {
+    color: #ffc0cb;
+    font-family: "Knewave", system-ui;
+}
+
+
+.collapsible>label {
+    color: rgb(0, 0, 0);
+    font-family: "Chewy", system-ui;
+
+}
+
+span {
+    color: rgb(102, 102, 102);
+    font-family: "Chewy", system-ui;
+}
+
+.card-title {
+    color: rgb(0, 0, 0);
+    font-family: "Knewave", system-ui;
+}
+
+.card-text {
+    color: rgb(102, 102, 102);
+    font-family: "Chewy", system-ui;
+}
+
+label {
+    color: #ffc0cb;
+    font-family: "Knewave", system-ui;
+}
+
+h5 {
+    color: #ffc0cb;
+    font-family: "Knewave", system-ui;
+}
+
+p {
+    color: rgb(102, 102, 102);
+    font-family: "Chewy", system-ui;
+}
+
+nav a{
+    font-family: "Bangers", system-ui;
+}
+nav{
+    background-color: #a33446;
+}
+
+a:visited{
+        color: rgb(255, 255, 255);
+}
